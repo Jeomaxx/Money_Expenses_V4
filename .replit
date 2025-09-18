@@ -1,4 +1,4 @@
-modules = ["python-3.11", "dart-3.8"]
+modules = ["cpp-clang14", "swift-5.8", "c-clang14", "dart-3.8"]
 [agent]
 expertMode = true
 
@@ -32,3 +32,7 @@ outputType = "webview"
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 40023
+externalPort = 3000
